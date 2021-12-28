@@ -3,9 +3,9 @@ name: Build all-in-one images registry
 
 on:
   push:
-    branches: [master, express]
+    branches: [express]
   pull_request:
-    branches: [master]
+    branches: [express]
   schedule:
     - cron: "0 16 * * *"
 
